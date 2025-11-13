@@ -1,16 +1,63 @@
-# React + Vite
+📊 Data Visualization Board
+📝 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Data Visualization Board is a responsive web application built entirely using HTML, CSS, JavaScript, and React.js — without any external libraries.
+It provides a complete visualization of sales data, showing monthly performance, percentage distribution, and projected sales trends.
+This project demonstrates the power of React components and pure front-end logic to create interactive data dashboards.
 
-Currently, two official plugins are available:
+🎯 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📈 Bar Chart Visualization:
+Displays monthly sales data (January–June) using dynamic bars for clear comparison.
 
-## React Compiler
+🥧 Pie Chart Display:
+Represents each month’s contribution to total sales through a color-coded pie chart (implemented purely with React and CSS).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📊 Sales Percentage Summary:
+Shows the percentage contribution of each month, helping users identify growth and performance trends.
 
-## Expanding the ESLint configuration
+📅 Sales Projection & Forecast:
+Includes projections for July–December with estimated sales values, demonstrating basic data forecasting logic.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💡 Forecast Explanation:
+Contains a short description of what a sales forecast is and why it matters for business planning.
+
+
+⚙️ Technologies Used
+
+HTML5 – For structure and layout
+
+CSS3 – For design, color styling, and responsive visuals
+
+JavaScript (ES6) – For logic, interactivity, and calculations
+
+React.js – For component-based rendering and state management
+
+🚫 No external charting or visualization libraries were used — all visuals are built manually using core web technologies.
+
+🚀 How It Works
+
+.User inputs monthly sales data through the interface.
+
+.The dashboard automatically updates all visuals (bar chart, pie chart, percentages).
+
+.Sales projections for future months are generated and displayed dynamically.
+
+.The app is fully responsive and works smoothly in modern browsers.
+
+
+
+🧠 Future Enhancements
+
+Add data input validation and persistent storage (localStorage or database).
+
+Include export options (PDF or CSV).
+
+Add real-time data updates and customizable themes.
+
+Enhance interactivity with tooltips and animations.
+
+💻 Author
+
+[Boby Gupta]
+Front-End Developer | React Enthusiast | Data Visualization Learner
