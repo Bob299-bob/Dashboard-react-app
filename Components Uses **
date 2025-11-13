@@ -1,0 +1,16 @@
+
+
+#Sales.jsx :- Bar Graph UI
+#Sales.css :- Bar Graph UI
+
+Reciept.jsx :-It is a UI , Which contains the logic of the entire app.
+Reciept.css :-("Styling............");
+
+Graph.jsx :- Pie Chart UI
+Graph.css :-( " styling .........");
+
+Forecast.jsx :- It is a UI For Projection Of Sales.
+Forecast.css :-("styling .....")
+
+
+Brain Of this app :- "Reciept.jsx";
