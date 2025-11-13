@@ -1,0 +1,26 @@
+.Showdata{
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    border: 2px solid rgb(108, 56, 56);
+    background: #210404;
+    top: -11px;
+    left: 320px;
+    border-radius: 10px;
+}
+input{
+    padding: 7px;
+    border-radius: 5px;
+}
+#closebtn{
+    margin-left:100px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 80px;
+    cursor: pointer;
+}
+label{
+    color: aliceblue;
+    padding: 15px;
+    font-weight: bold;
+}

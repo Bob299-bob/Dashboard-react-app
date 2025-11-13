@@ -1,0 +1,29 @@
+h1{
+    margin-left: 550px;
+    padding: 10px;
+    color: blue;
+}
+body{
+    background: hsl(150, 19%, 92%);
+   
+}
+#joker{
+    display: flex;
+    justify-content: space-evenly;
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+    
+   
+
+}
+h6{
+    font-size: 20px;
+    color: blue;
+}
+#colr{
+    background: #d7dad2;
+    border: 5px solid rgb(186, 227, 147);
+    border-radius: 15px;
+    padding: 10px;
+}

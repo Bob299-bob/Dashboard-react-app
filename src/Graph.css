@@ -1,0 +1,51 @@
+h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 140px;
+    color: blue;
+    font-weight: bold;
+    
+}
+#graphMain{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 500px;
+}
+#sub1,#sub2,#sub3,#sub4,#sub5,#sub6{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    background: #f3d9d9;
+    font-weight: bold;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+#per1,#per2,#per3,#per4,#per5,#per6{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(16, 17, 16);  
+    font-weight: bold;
+}
+#per1{
+    background: #9b0d0d;
+}
+#per2{
+    background: #d8c626;
+}
+#per3{
+    background: #10741c;
+}
+#per4{
+    background: #4a0fc2;
+}
+#per5{
+    background: #ba098e;
+}
+#per6{
+    background: #7d0645;
+}
